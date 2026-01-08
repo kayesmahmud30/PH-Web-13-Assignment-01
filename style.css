@@ -102,3 +102,57 @@
   background: none;
   border: 2px solid #fff;
 }
+
+#note .note-container {
+  text-align: center;
+}
+
+.note-container h1 {
+  font-size: 48px;
+  color: #001931;
+  margin-top: 36px;
+}
+
+.note-container p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-top: 16px;
+}
+
+.note-container .cards-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  margin: 44px auto 120px;
+  max-width: 1360px;
+}
+
+.cards-container .card {
+  width: 322px;
+  height: 300px;
+  box-shadow: 0 6px 50px 0 #00000010;
+}
+
+.cards-container .card img {
+  height: 60px;
+  width: 60px;
+  padding: 12px;
+  border-radius: 100%;
+  background-color: #f95555;
+  margin-top: 69px;
+}
+
+.cards-container .card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  width: 274px;
+}
+
+.cards-container .card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  width: 274px;
+}
