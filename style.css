@@ -111,6 +111,7 @@
   font-size: 48px;
   color: #001931;
   margin-top: 36px;
+  text-transform: capitalize;
 }
 
 .note-container p {
@@ -148,6 +149,7 @@
   font-weight: 600;
   color: #001931;
   width: 274px;
+  text-transform: capitalize;
 }
 
 .cards-container .card p {
@@ -155,4 +157,48 @@
   line-height: 20px;
   color: #627382;
   width: 274px;
+}
+
+#brain {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1360px;
+}
+
+#brain .brain-text {
+  width: 500px;
+}
+
+#brain .brain-text .green-text {
+  color: #469165;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.brain-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+
+.brain-text .detail {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin: 16px 0 40px 0;
+}
+
+.brain-text ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
