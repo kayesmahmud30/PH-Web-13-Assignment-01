@@ -63,7 +63,7 @@
 
 .banner-items .early-btn {
   width: 229px;
-  height: 35px;
+  height: 40px;
   border-radius: 1000px;
   font-size: 16px;
   color: #469165;
@@ -288,6 +288,7 @@ footer .footer-container {
   justify-content: space-around;
   background-color: #001931;
   padding: 120px 0;
+  width: 100%;
 }
 
 .social-links p {
@@ -321,5 +322,5 @@ footer .copy-right-text {
   color: #fafafa;
   background: #001931;
   padding: 30px 0;
-  border-top: 0.1px solid #e5e7eb4a;
+  border-top: 1px solid #e5e7eb4a;
 }
