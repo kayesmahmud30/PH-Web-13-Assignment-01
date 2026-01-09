@@ -37,6 +37,13 @@
   font-size: 16px;
 }
 
+.nav-container button:hover{
+  background: none;
+  border: 2px solid #469165;
+  color: #469165;
+  transition: 0.2s;
+}
+
 #banner .banner-container {
   background-image: url("./assets/hero-bg.png");
   height: 674px;
@@ -62,6 +69,13 @@
   font-weight: 500;
   margin-bottom: 16px;
   border: none;
+}
+
+.banner-items .early-btn:hover{
+  background: #469165;
+  color: #fff;
+  transition: 0.2s;
+  font-size: 17px;
 }
 
 .banner-items h1 {
@@ -101,6 +115,18 @@
 .banner-items .see-btn {
   background: none;
   border: 2px solid #fff;
+}
+
+.banner-items .start-btn:hover{
+  background: none;
+  border: 3px solid #fff;
+  transition: 0.2s;
+}
+
+.banner-items .see-btn:hover{
+  background: #469165;
+  border: none;
+  transition: 0.2s;
 }
 
 #note .note-container {
@@ -242,6 +268,13 @@
   color: #fff;
   border: none;
   margin-top: 24px;
+}
+
+.think-container button:hover{
+  background: none;
+  border: 2px solid #469165;
+  color: #469165;
+  transition: 0.2s;
 }
 
 footer .footer-container {
