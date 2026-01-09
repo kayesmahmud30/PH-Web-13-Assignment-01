@@ -130,7 +130,6 @@
 }
 
 .cards-container .card {
-  width: 322px;
   height: 300px;
   box-shadow: 0 6px 50px 0 #00000010;
 }
@@ -243,4 +242,40 @@
   color: #fff;
   border: none;
   margin-top: 24px;
+}
+
+footer .footer-container {
+  margin: 120px auto 0;
+  display: flex;
+  gap: 60%;
+  justify-content: space-around;
+  background-color: #001931;
+  padding: 120px 0;
+}
+
+.social-links p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.social-links a {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 100%;
+  background: #fff;
+  margin-right: 16px;
+}
+
+footer .copy-right-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fafafa;
+  background: #001931;
+  padding: 30px 0;
+  border-top: 0.1px solid #e5e7eb4a;
 }
