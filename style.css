@@ -35,9 +35,10 @@
   color: #fff;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 
-.nav-container button:hover{
+.nav-container button:hover {
   background: none;
   border: 2px solid #469165;
   color: #469165;
@@ -69,9 +70,10 @@
   font-weight: 500;
   margin-bottom: 16px;
   border: none;
+  cursor: pointer;
 }
 
-.banner-items .early-btn:hover{
+.banner-items .early-btn:hover {
   background: #469165;
   color: #fff;
   transition: 0.2s;
@@ -110,6 +112,7 @@
   color: #fff;
   border: none;
   margin: 0 8px;
+  cursor: pointer;
 }
 
 .banner-items .see-btn {
@@ -117,13 +120,13 @@
   border: 2px solid #fff;
 }
 
-.banner-items .start-btn:hover{
+.banner-items .start-btn:hover {
   background: none;
   border: 3px solid #fff;
   transition: 0.2s;
 }
 
-.banner-items .see-btn:hover{
+.banner-items .see-btn:hover {
   background: #469165;
   border: none;
   transition: 0.2s;
@@ -268,9 +271,10 @@
   color: #fff;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 
-.think-container button:hover{
+.think-container button:hover {
   background: none;
   border: 2px solid #469165;
   color: #469165;
@@ -303,7 +307,7 @@ footer .footer-container {
   margin-right: 16px;
 }
 
-.social-links a:hover{
+.social-links a:hover {
   background-color: #469165;
   color: #fff;
   padding: 10px;
